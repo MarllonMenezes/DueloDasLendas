@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duelo Das Lendas</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                DUELO DAS LENDAS
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/thor.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Thor</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="thor" data-name="Thor">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/thor.jpg" alt="Personagem Thor">
+                </li>
+
+                <li class="personagem" id="dugtrio" data-name="Dugtrio Com Participação Especial">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/dugtrioperfil.png" alt="Personagem dugtrio">
+                </li>
+
+                <li class="personagem" id="Ace" data-name="Ace">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/ace perfil.jpg" alt="Personagem Ace">
+                </li>
+
+                <li class="personagem" id="hulk" data-name="Hulk">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/hulk.jpg" alt="Personagem Hulk">
+                </li>
+
+                <li class="personagem" id="jordan bardo" data-name="Bardo Solitário">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/jordan.png" alt="Personagem jordan">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="alucard" data-name="Alucard">
+                    <span class="tag">CPU</span>
+                    <img src="./src/imagens/alucard_perfil-removebg-preview.png" alt="Personagem Alucard">
+                </li>
+
+                <li class="personagem" id="link" data-name="link">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/link_perfil-removebg-preview.png" alt="Personagem link zelda">
+                </li>
+
+                <li class="personagem" id="serphiroth" data-name="serphiroth">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/serphiroth icone.jpg" alt="Personagem serphiroth">
+                </li>
+
+                <li class="personagem" id="vegeta" data-name="vegeta">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/vegetaperfil.png" alt="Personagem vegeta">
+                </li>
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/ace.png" alt="Personagem selecionado CPU" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>Ace</h2>
+                </div>
+            </div>
+        </div>
+        <audio preload="auto" loop autoplay>
+            <source src="/src/song/Mortal Kombat [Hard Trance Techno Remix].mp3" type="audio/mpeg">
+
+        </audio>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
